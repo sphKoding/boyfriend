@@ -1,11 +1,16 @@
+/* main elements styling */
 * {
  margin: 0;
 }
+
+/* header styling */
 header {
  display: flex;
  justify-content: space-between;
  align-items: center;
 }
+
+/* navigation styling */
 nav ul {
  display: flex;
 }

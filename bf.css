@@ -2,10 +2,14 @@
 * {
  margin: 0;
 }
+body {
+	/* background: black; */
+}
 
 /* header styling */
 header {
  padding: 8px 12px 8px 12px;
+	background: white;
  display: flex;
  justify-content: space-between;
  align-items: center;
@@ -13,8 +17,20 @@ header {
 
 /* navigation styling */
 nav ul {
- display: flex;
+	border: 1px black;
+	border-style: dashed;
+	padding: 5px;
+ /* display: flex; */
+	list-style-type: none;
 }
-nav > li {
- text-decoration: none;
+nav li {
+ border: 1px black;
+	border-style: solid;
+	display: inline;
+}
+
+/* section styling */
+section {
+	background: gray;
+	/* color: white; */
 }
